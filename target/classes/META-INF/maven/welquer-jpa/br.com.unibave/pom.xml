@@ -22,25 +22,5 @@
 			<artifactId>h2</artifactId>
 			<version>1.4.196</version>
 		</dependency>
-		<dependency>
-			<groupId>org.hibernate.javax.persistence</groupId>
-			<artifactId>hibernate-jpa-2.1-api</artifactId>
-			<version>1.0.1.Final</version>
-		</dependency>
 	</dependencies>
-	<build>
-	  <plugins>
-	    <plugin>
-	      <groupId>org.apache.maven.plugins</groupId>
-	      <artifactId>maven-jar-plugin</artifactId>
-	      <configuration>
-	        <archive>
-	          <manifest>
-	            <mainClass>br.com.unibave.Main</mainClass>
-	          </manifest>
-	        </archive>
-	      </configuration>
-	    </plugin>
-	  </plugins>
-	</build>
 </project>
